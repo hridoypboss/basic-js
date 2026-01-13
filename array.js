@@ -1,2 +1,1 @@
-var a = ['kalam, clam, kudus, korim']
-console.log(a)
+console.log("hello world");
