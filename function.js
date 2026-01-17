@@ -1,5 +1,5 @@
 
-function love(){       // Function  এর যে নাম থাকবে সই নামে ধরে কল করলে গুরুপে থাকা আউটপুট দেখাবে 
+/*function love(){       // Function  এর যে নাম থাকবে সই নামে ধরে কল করলে গুরুপে থাকা আউটপুট দেখাবে 
     console.log("I love programming!");
     console.log("I love JavaScript!");
     console.log("I love coding challenges!");
@@ -7,10 +7,9 @@ function love(){       // Function  এর যে নাম থাকবে স�
 love();
 
 
-/*
-function addition(num1, num2){   // Function এর ভিতরে প্যারামিটার ব্যবহার করা হয়েছে
-    var sum = num1 + num2;
-    console.log("The sum is: " + sum);
+function addition(num1, num2){   // Function এর ভিতরে প্যারামিটার ব্যবহার করা হয়েছে 
+var sum = num1 + num2;
+console.log("The sum is: " + sum);
 }
 addition(5, 10);   // Function কল করার সময় আর্গুমেন্ট ব্যবহার করা হয়েছে
 addition(20, 30);
@@ -37,7 +36,14 @@ return num1 + num2;   // এখানে ফলাফেরত ফেরত প�
 }
 var result = jogfol(15, 25);   // Function কল করার সময় আর্গুমেন্ট ব্যবহার করা হয়েছে
 console.log("Jogfol: " + result);   // আউটপুট দেখাবে
-}
+var total = jogfol(100, 200);   // Function কল করার সময় আর্গুমেন্ট ব্যবহার করা হয়েছে*/
 
+//function object property, values set
+var student1 = { id: 10, phone: "017xxxxxx10", name: "abul", address: "dhaka" };
+var student2 = { id: 20, phone: "017xxxxxx20", name: "babul", address: "cumilla" };
+var student3 = { id: 30, phone: "017xxxxxx30", name: "cabul", address: "barishal" };
 
-
+var studentPhoneNumber = student1.phone;
+var student2.phone = "017100000000";
+console.log(studentPhoneNumber);
+console.log(student2);

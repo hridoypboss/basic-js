@@ -9,3 +9,4 @@ else if(age >=18 && gender == "female"){
 else{
     console.log("bayar bayas hoynai");
 }
+var age = 25;
