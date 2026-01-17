@@ -43,7 +43,7 @@ var student1 = { id: 10, phone: "017xxxxxx10", name: "abul", address: "dhaka" };
 var student2 = { id: 20, phone: "017xxxxxx20", name: "babul", address: "cumilla" };
 var student3 = { id: 30, phone: "017xxxxxx30", name: "cabul", address: "barishal" };
 
-var studentPhoneNumber = student1.phone;
-var student2.phone = "017100000000";
+var studentPhoneNumber = student1.phone;  //  output: 017xxxxxx10
+var student2.phone = "017100000000"; // update phone number output: 017100000000
 console.log(studentPhoneNumber);
 console.log(student2);
